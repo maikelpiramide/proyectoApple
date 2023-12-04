@@ -1,3 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: black;
+    padding:15px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav>a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+}
 .container{
     background: url('Image/apple1.jpg') no-repeat;
     height: 100vh;
