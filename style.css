@@ -1,0 +1,36 @@
+.container{
+    background: url('Image/apple1.jpg') no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 56px;
+}
+h3{
+    font-size: 28px;
+}
+
+@media all and (min-width:769px) and (max-width: 1024px){
+    h2{
+        font-size: 48px;
+    }
+    h3{
+        font: 24px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px){
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 19px;
+    }
+}
+
