@@ -1,14 +1,14 @@
 *{
     box-sizing: border-box;
-    padding:0;
+    padding: 0;
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
 }
 body{
     width: 100%;
+    background-color: #F5F5F7;
 }
 header{
-    background-color: #161617;
+    background-color: #FAFAFC;
     padding:15px;
     display: flex;
     align-items: center;
@@ -25,28 +25,28 @@ header >nav{
 }
 nav>a{
     text-decoration: none;
-    color:white;
+    color:#3b3b3b;
     font-weight: 600;
 }
-.container{
-    background: url('Image/apple1.jpg') no-repeat;
+.container2{
     height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap:15px;
+    margin: 0 25% 0 25%;
 }
-.container > h2{
-    font-size: 56px;
+.container2 > picture > img{
+    width: 100%;
+    height: auto;
 }
-.container > h3{
-    font-size: 28px;
+.container2 > h1{
+    font-size: 96px;
 }
-
-
+.container2 > h2{
+    font-size: 24px;
+}
 
 /*para escritorio*/
 @media all and (min-width:1025px) and (max-width: 1200px){
@@ -57,12 +57,6 @@ nav>a{
 
 /*para portatil*/
 @media all and (min-width:769px) and (max-width: 1024px){
-    .container > h2{
-        font-size: 48px;
-    }
-    .container > h3{
-        font: 24px;
-    }
     .container2 > h1{
         font-size: 48px;
     }
@@ -73,12 +67,6 @@ nav>a{
 
 /*para movil*/
 @media all and (min-width: 320px) and (max-width: 480px){
-    .container > h2{
-        font-size: 32px;
-    }
-    .container > h3{
-        font-size: 19px;
-    }
     .container2 > h1{
         font-size: 48px;
     }
@@ -86,4 +74,3 @@ nav>a{
         font-size: 17px;
     }
 }
-
